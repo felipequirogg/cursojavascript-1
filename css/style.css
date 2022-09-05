@@ -1,0 +1,23 @@
+*{
+    font-family: 'Anek Telugu', sans-serif;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.mayor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.inputs{
+    align-items: center;
+    width: 200px;
+    gap: 20px;
+}
+.boton{
+    margin-top: 20px;
+}

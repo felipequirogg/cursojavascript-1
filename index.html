@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciclos Coder</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&display=swap" rel="stylesheet">
+    <title>FittingApp | Tu app para mantenerte en forma</title>
 </head>
-<body>
+
+<body class="body">
     <h1>¡Buenas! Bienvenido a FittingApp</h1>
     <h2>¿Que querias realizar hoy?</h2>
-    <input type="text" placeholder="Escribe tu nombre">
-    <input type="text" placeholder="Escribe tu edad">
-    <input type="text" placeholder="Escribe tu peso">
-    <input type="text" placeholder="Escribe tu altura">
-    <button>Enviar sus datos</button>
+    <div class="mayor">
+        <div class="inputs">
+            <div class="grupo">
+                <label>Escribe tu nombre:</label>
+                <input id="minombre" class="nombre" type="text" placeholder="Escribe tu nombre">
+            </div>
+            <div class="grupo">
+                <label>Escribe tu edad:</label>
+                <input id="miedad" class="edad" type="text" placeholder="Escribe tu edad">
+            </div>
+            <div class="grupo">
+                <label>Escribe tu peso:</label>
+                <input id="mipeso" class="peso" type="text" placeholder="Escribe tu peso">
+            </div>
+            <div class="grupo">
+                <label>Escribe tu altura:</label>
+                <input id="mialtura" class="altura" type="text" placeholder="Escribe tu altura">
+            </div>
+            <button id="miboton" class="boton">Enviar sus datos</button>
+        </div>
+    </div>
     <script src="./js/miarchivo.js"></script>
 </body>
+
 </html>
