@@ -54,3 +54,7 @@ document.getElementById("miboton").onclick = function(){
     var mialtura = document.getElementById("mialtura").value;
     console.log("Perfecto mides", mialtura);
 }
+
+let boton = document.getElementById("miboton2")
+    boton.onclick = () => {console.log("Informacion enviada a nuestra base de datos")}
+
