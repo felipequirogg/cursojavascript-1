@@ -4,7 +4,6 @@
 .body{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
 }
 .mayor{
@@ -20,4 +19,10 @@
 }
 .boton{
     margin-top: 20px;
+    background-color: #313131;
+    color: white;
+}
+.grupo{
+    align-items: center;
+margin: 10px;
 }
