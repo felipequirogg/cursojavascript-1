@@ -64,6 +64,31 @@ document.getElementById("miboton").onclick = function(){
     console.log(newUser)
 }
 
+const btn = document.querySelector('#miboton')
+miboton.addEventListener('click', () =>{
+
+    Swal.fire({
+        title: 'Genial!',
+        text: 'Guardaste tus datos correctamente',
+        icon: 'success',
+        showConfirmButton: false
+
+})
+}) 
+
+const bttn = document.querySelector('#miboton2')
+miboton2.addEventListener('click', () =>{
+
+    Swal.fire({
+        title: 'Excelente!',
+        text: 'Tus datos fueron enviados correctamente',
+        icon: 'success',
+        showConfirmButton: false
+
+})
+}) 
+
+
 let boton = document.getElementById("miboton2")
     boton.onclick = () => {console.log(users,"Informacion enviada a nuestra base de datos")}
 
