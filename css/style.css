@@ -6,6 +6,10 @@
     flex-direction: column;
     text-align: center;
 }
+.todo{
+    justify-content: center;
+    margin-top: 200px
+}
 .mayor{
     display: flex;
     justify-content: center;
@@ -17,12 +21,19 @@
     width: 200px;
     gap: 20px;
 }
-.boton{
-    margin-top: 20px;
+.btn{
+    margin-top: 5px;
     background-color: #313131;
     color: white;
+    justify-content: center;
+}
+.input{
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
 }
 .grupo{
     align-items: center;
-margin: 10px;
+    margin: 10px;
 }
+
