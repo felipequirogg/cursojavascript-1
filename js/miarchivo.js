@@ -62,8 +62,8 @@ document.getElementById("miboton").onclick = function () {
     console.log(newUser)
 }
 
-const btnn = document.querySelector('#miboton')
-miboton.addEventListener('click', () => {
+const btn = document.querySelector('#miboton')
+miboton.addEventListener("click", () => {
 
     Swal.fire({
         title: 'Genial!',
@@ -74,8 +74,15 @@ miboton.addEventListener('click', () => {
     });
 });
 
-const btn = document.getElementById('button');
+const btnn = document.getElementById('button');
 
+fetch('https://jsonplaceholder.typicode.com/posts', {
+method: "POST",
+body: JSON.stringify(_datos),
+headers: {"Content-type": "application/json; charset=UTF-8"}
+})
+.then(response => response.json()) 
+.then(json => console.log(json));
 document.getElementById('form')
     .addEventListener('submit', function (event) {
         event.preventDefault();
@@ -94,9 +101,6 @@ document.getElementById('form')
                 alert(JSON.stringify(err));
             });
     });
-
-
-
 
 
 sessionStorage.setItem('minombre', 'Felipe', true);
